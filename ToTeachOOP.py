@@ -1,7 +1,7 @@
 class MyClass():
-    i = 123
+    i = 1
     def __init__(self):
-        self.i = 345
+        self.i = 2
      
 
 a = MyClass()
