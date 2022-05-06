@@ -1,3 +1,6 @@
+"""
+This is a multiactor with three actors reinforcement learning environment inside tensorforce  with PPO agent
+"""
 import numpy as np
 
 from tensorforce import Environment, Runner
