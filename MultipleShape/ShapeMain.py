@@ -188,10 +188,10 @@ class ShapeMain:
         show_quadrants = kwargs.get('show_quadrants', False)
         max_radius     = kwargs.get('max_radius',     1.0)
         min_radius     = kwargs.get('min_radius',     0.2)
-        xmin           = kwargs.get('xmin',          -3.0)
-        xmax           = kwargs.get('xmax',           3.0)
-        ymin           = kwargs.get('ymin',          -3.0)
-        ymax           = kwargs.get('ymax',           3.0)
+        xmin           = kwargs.get('xmin',          -15.0)
+        xmax           = kwargs.get('xmax',           30.0)
+        ymin           = kwargs.get('ymin',          -15.0)
+        ymax           = kwargs.get('ymax',           15.0)
 
         # Plot shape
         plt.xlim([xmin,xmax])
@@ -316,10 +316,10 @@ class ShapeMain:
     def mesh(self, *args, **kwargs):
         # Handle optional argument
         mesh_domain = kwargs.get('mesh_domain', True)
-        xmin        = kwargs.get('xmin',       -3.0)
-        xmax        = kwargs.get('xmax',        3.0)
-        ymin        = kwargs.get('ymin',       -3.0)
-        ymax        = kwargs.get('ymax',        3.0)
+        xmin        = kwargs.get('xmin',       -15.0)
+        xmax        = kwargs.get('xmax',        30.0)
+        ymin        = kwargs.get('ymin',       -15.0)
+        ymax        = kwargs.get('ymax',        15.0)
         domain_h    = kwargs.get('domain_h',    1.0)
         mesh_format = kwargs.get('mesh_format', 'mesh')
 
